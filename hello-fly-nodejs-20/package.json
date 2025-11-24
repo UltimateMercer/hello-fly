@@ -1,0 +1,15 @@
+{
+  "name": "hello-fly-nodejs-20",
+  "version": "1.0.0",
+  "description": "Minimal HTTP server for Node.js 20",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

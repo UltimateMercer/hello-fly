@@ -1,0 +1,78 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+.metadata/
+*.swp
+*.swo
+*~
+.factorypath
+
+# Spring Boot
+application-local.properties
+application-local.yml
+application-*.local.properties
+application-*.local.yml
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven (in case of migration)
+target/
+
+# Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# virtual machine crash logs
+hs_err_pid*
+
+# Compiled class file
+*.class
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib

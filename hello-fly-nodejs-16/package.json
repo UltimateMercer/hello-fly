@@ -1,0 +1,15 @@
+{
+  "name": "hello-fly-nodejs-16",
+  "version": "1.0.0",
+  "description": "Minimal HTTP server for Node.js 16",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
