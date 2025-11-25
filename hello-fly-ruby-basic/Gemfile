@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+ruby '~> 3.0'
+
+# WEBrick is included in Ruby standard library for Ruby < 3.0
+# For Ruby 3.0+, it needs to be explicitly added
+gem 'webrick', '~> 1.8'

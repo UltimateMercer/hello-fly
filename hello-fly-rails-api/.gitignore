@@ -1,0 +1,130 @@
+# Bundler
+.bundle/
+vendor/bundle
+vendor/cache
+vendor/ruby
+Gemfile.lock
+
+# Ruby
+*.gem
+*.rbc
+.config
+coverage/
+InstalledFiles
+lib/bundler/man/
+pkg/
+rdoc/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Rails specific
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-*
+db/*.sqlite3
+db/*.sqlite3-journal
+db/*.sqlite3-*
+log/
+tmp/
+public/system
+public/uploads
+public/assets
+.byebug_history
+.env
+.env.*
+!.env.example
+config/master.key
+config/credentials/*.key
+
+# Ignore all logfiles and tempfiles
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory
+/tmp/pids/*
+!/tmp/pids/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore node_modules
+node_modules/
+yarn-error.log
+
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+/public/assets
+.yarn-integrity
+
+# Ignore master key for decrypting credentials and more
+/config/master.key
+
+# Ignore .env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.project
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# RVM
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# rbenv
+.rbenv-version
+
+# SASS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Documentation
+doc/
+.yardoc
+.yardopts
+
+# CTags
+tags
+TAGS
+!tags/
+!TAGS/
+
+# Rubymine
+.idea/
+
+# Other
+.rvmrc
+.ruby-version
+.ruby-gemset
+.rspec
+/vendor/bundle/
+/vendor/cache/
+/.bundle/
+/doc/
+/log/*.log
+/pkg/
+/tmp/
+/coverage/
+.DS_Store
